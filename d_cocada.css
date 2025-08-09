@@ -6,8 +6,7 @@
 }
 
 body{
-    display: flex;
-    flex-direction: column;
+
     height: 100vh;
 }
 
@@ -49,10 +48,14 @@ nav ul, footer ul{
     padding: 1rem;
 }
 
+footer a{
+    text-decoration: none;
+}
+
 footer{
     text-align: center;
     padding: 1rem;
-    background-image: url("img/cor3.png");;
+    background-image: url("img/cor3.png");
 }
 
 a{

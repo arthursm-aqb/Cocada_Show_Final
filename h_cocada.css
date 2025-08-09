@@ -12,9 +12,6 @@ body{
     width: 100vw;
 }
 
-header, main, footer{
-    border: 1px solid black;
-}
 
 header{
     background-image: url("img/cor.png");

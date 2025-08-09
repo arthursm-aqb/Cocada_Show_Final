@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Garamond;
+    box-sizing: border-box;
+}
+
+header{
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    background-image: url("img/cor.png");
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("img/cor2.png");
+    color: whitesmoke;
+    font-weight: bolder;
+    height: 1300px;
+    padding: 6rem;
+    text-align: center;
+
+}
+
+article{
+    width: 500px;
+}
+
+article p{
+    margin: 2rem;
+}
+
+form {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 20px; 
+    width: 100%;
+    max-width: 1200px; 
+   
+}
+
+.linha{
+    display: flex;
+    gap: 0.3rem;
+}
+.grupo {
+    display: flex;
+    flex-direction: column;
+}
+
+.grupo.comp {
+    grid-column: 1/4;
+}
+
+.grupo.centro {
+    align-items: center;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    border: 1px solid #bcaaa4; 
+    border-radius: 8px; 
+    padding: 10px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+input[type="file"] {
+    color: #6d4c41;
+    margin-top: 8px;
+}
+
+input[type="submit"] {
+    background-color: #a1887f; 
+    color: white; 
+    border: none;
+    border-radius: 20px; 
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer; 
+}
+
+footer{
+    text-align: center;
+    padding: 1rem;
+    background-image: url("img/cor3.png");
+}
+
+nav ul, footer ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+a{
+    color: black;
+}
+
+footer a{
+    text-decoration: none;
+}
